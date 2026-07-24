@@ -1,0 +1,19 @@
+# macOS metadata
+.DS_Store
+
+# Course brief kept only as local reference
+Proyecto1.pdf
+
+# C build artifacts
+*.o
+*.d
+*.elf
+*.map
+
+# Editor and temporary files
+*~
+*.swp
+*.swo
+
+# Local QEMU output
+qemu.log
