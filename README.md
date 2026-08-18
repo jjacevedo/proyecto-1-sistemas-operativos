@@ -183,7 +183,7 @@ Dentro de xv6, el shell arranca automáticamente (`init: starting sh`).
 
 Durante el desarrollo del proyecto se utilizó Claude (Anthropic) como
 herramienta de apoyo para comprensión de conceptos de sistemas operativos,
-guía paso a paso en el diseño e implementación, revisión de código y
+guía en el diseño e implementación, revisión de código y
 resolución de errores de compilación y de lógica (incluyendo un bug de
 sincronización en la actividad de pipes con procesos padre-hijo).
 
