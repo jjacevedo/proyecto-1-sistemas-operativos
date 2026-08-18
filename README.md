@@ -195,3 +195,13 @@ mecanismo de doble fork y `dup` en las tuberías, y el motivo por el cual
 
 Los integrantes asumen plena responsabilidad académica sobre el contenido
 entregado.
+
+# Nota sobre el historial de commits
+
+El desarrollo del shell se realizó de forma incremental (comandos simples,
+redirección de entrada, redirección de salida, pipes, comando `exit`,
+refactorización), con un commit por cada etapa, dentro del entorno de trabajo
+local usado para compilar y probar contra xv6 completo. Ese entorno no
+corresponde a este repositorio de entrega (que, según lo solicitado, no debe
+contener el código fuente completo de xv6), por lo que el código final se
+integró a este repositorio en un único commit consolidado.
