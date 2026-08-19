@@ -3,8 +3,8 @@
 
 ### Integrantes
 
-- Juan José Acevedo
-- Miguel Anegel Marin
+- Juan José Acevedo Otálvaro
+- Miguel Anegel Marin Mejia
 - 
 
 ### Curso
