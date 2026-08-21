@@ -5,7 +5,7 @@
 
 - Juan José Acevedo Otálvaro
 - Miguel Anegel Marin Mejia
-- 
+- Sebastian Henao Mejía
 
 ### Curso
 
