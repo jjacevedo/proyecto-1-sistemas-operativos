@@ -84,6 +84,12 @@ Ejecuta lo que el parser preparó:
 
 # Integración con xv6
 
+> **Nota para usuarios de Windows:** el toolchain de xv6 (compilador RISC-V y
+> QEMU) no está disponible de forma nativa en Windows. Se recomienda usar
+> **WSL 2** (Windows Subsystem for Linux) con Ubuntu, o una máquina virtual
+> con Linux. Una vez dentro del entorno Linux, los pasos a continuación
+> funcionan sin modificaciones.
+
 ## Paso 1. Obtener xv6
 
 ```bash
@@ -183,9 +189,9 @@ Dentro de xv6, el shell arranca automáticamente (`init: starting sh`).
 
 Durante el desarrollo del proyecto se utilizó Claude (Anthropic) como
 herramienta de apoyo para comprensión de conceptos de sistemas operativos,
-guía en el diseño e implementación, revisión de código y
-resolución de errores de compilación y de lógica (incluyendo un bug de
-sincronización en la actividad de pipes con procesos padre-hijo).
+guía en el diseño e implementación, revisión de código y resolución de errores
+de compilación y de lógica (incluyendo un bug de sincronización en la
+actividad de pipes con procesos padre-hijo).
 
 Los integrantes comprenden el funcionamiento completo del shell implementado
 y son capaces de explicar y justificar cada decisión de diseño tomada,
@@ -195,6 +201,8 @@ mecanismo de doble fork y `dup` en las tuberías, y el motivo por el cual
 
 Los integrantes asumen plena responsabilidad académica sobre el contenido
 entregado.
+
+---
 
 # Nota sobre el historial de commits
 
